@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Crônicas do Mestre",
+    "slug": "cronicas-do-mestre",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.cronicasdomestre.diario",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Permita o uso da câmera para fotografar mapas e referências de RPG.",
+          "recordAudioAndroid": false
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Permita selecionar imagens para seus registros de RPG."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "41b57685-9d80-464d-8687-d43b61f61c2d"
+      }
+    }
+  }
+}
